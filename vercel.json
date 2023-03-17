@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/Landing.vue"
+      "dest": "/app.vue"
     }
   ]
 }
