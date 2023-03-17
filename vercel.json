@@ -1,0 +1,15 @@
+{
+  "name": "buah-in-frontend",
+  "builds": [
+    {
+      "src": "quasar build",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Landing.vue"
+    }
+  ]
+}
